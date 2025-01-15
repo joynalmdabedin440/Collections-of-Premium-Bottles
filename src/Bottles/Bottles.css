@@ -2,3 +2,27 @@
     display:grid;
     grid-template-columns: repeat(3,1fr);
 }
+.cart{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    border: 2px solid greenyellow;
+    padding: 20px;
+}
+.cart-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid greenyellow;
+    padding: 5px;
+    margin: 5px;
+
+}
+.cart-item>li{
+    list-style: none
+    
+}
+.cart-img{
+    width: 30%;
+    
+}
